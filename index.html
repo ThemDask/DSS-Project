@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heart Disease Probabilty Detector</title>
+  <link type="text/css" rel="stylesheet" href="/public/css/styles.css" >
+</head>
+
+<body>
+    <div class="title-box">
+        <div class="title">
+            <h1>Heart Disease Probabilty Detector</h1> 
+        </div>
+        <div class="subtitle">
+            <h2> a DSS university project<br><br></h3> 
+        </div>
+    </div>
+
+    <div class="attributecont">
+        <h2> Please enter the following...<br><br></h3>
+            <h2>Choose one of the values below:</h3>
+                <label class = 'label' for="gender"><br>Gender:</label>
+                <select id="gender">
+                <option value="0">male</option>
+                <option value="1">female</option>
+                </select>
+                
+                <label class = 'label' for="diabetes"><br>Diabetes:</label>
+                <select id="diabetes">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </select>
+
+                <label class = 'label' for="anaemia"><br>anaemia:</label>
+                <select id="anaemia">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </select>
+
+                <label class = 'label' for="pressure"><br>high blood pressure:</label>
+                <select id="pressure">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </select>
+
+                <label class = 'label' for="smoking"><br>smoking:</label>
+                <select id="smoking">
+                    <option value="1">yes</option>
+                    <option value="0">no</option>
+                </select>
+
+                <h2>Write your answer in the fields below:</h2>
+                <h3>example inputs (in order): 45, 582, 137, 1.18, 263358.03, 80, 63</h3> 
+                <label class = 'label' for="age">age:</label>
+                <input type="text" id="age">
+
+                <label class = 'label' for="CPK"><br>Level of CPK in blood (mcg/L):</label>
+                <input type="text" id="CPK">
+
+                <label class = 'label' for="serum_sodium"><br>level of serum sodium in the blood (mEq/L):</label>
+                <input type="text" id="serum_sodium">
+
+                <label class = 'label' for="serum_creatinine"><br>level of serum creatinine in the blood (mg/dL):</label>
+                <input type="text" id="serum_creatinine">
+
+                <label class = 'label' for="platelets"><br>platelets in the blood (kiloplatelets/mL):</label>
+                <input type="text" id="platelets">
+
+                <label class = 'label' for="contraction"><br>percentage of blood leaving the heart at each contraction (percentage):</label>
+                <input type="text" id="contraction">
+
+                <label class = 'label' for="time"><br>time spent in coma from cardiac arrest (if not any: 0):</label>
+                <input type="text" id="time">
+    </div>
+
+    <div class="buttoncont">
+        <button class="button" onclick="button_click()">submit</button> 
+        <label id="success"></label>
+
+        <h4><br></h4>
+
+        <button class="button2" onclick="return_results()">show results</button> 
+        <label id="result"></label>
+    </div>
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+<script type="text/javascript" src="public/js/script.js"></script>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(89, 152, 13);
+}
+
+.label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(49, 47, 47);
+} 
+
+.title-box {
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+
+.title {
+    font-size: xx-large;
+}
+
+
+.button {
+    font-size: x-large;
+    padding: 16px 60px;
+    background: rgb(201, 197, 189);
+}
+
+.button2 {
+    font-size: x-large;
+    padding: 16px 60px;
+    background: rgb(201, 197, 189);
+}   
+
+#success {
+    position: relative;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+#result {
+    font-size: x-large;
+}

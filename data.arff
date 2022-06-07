@@ -1,0 +1,17 @@
+@relation heart_failure
+
+@attribute age numeric
+@attribute anaemia {0,1}
+@attribute creatinine_phosphokinase numeric
+@attribute diabetes {0,1}
+@attribute ejection_fraction numeric
+@attribute high_blood_pressure {0,1}
+@attribute platelets numeric
+@attribute serum_creatinine numeric
+@attribute serum_sodium numeric
+@attribute sex {0,1}
+@attribute smoking {0,1}
+@attribute time numeric
+@attribute DEATH_EVENT {0,1}
+
+@data
